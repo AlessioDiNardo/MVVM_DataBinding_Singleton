@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		DF1EEF6529632CC100DBD413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF6429632CC100DBD413 /* AppDelegate.swift */; };
 		DF1EEF6729632CC100DBD413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF6629632CC100DBD413 /* SceneDelegate.swift */; };
-		DF1EEF6929632CC100DBD413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF6829632CC100DBD413 /* ViewController.swift */; };
 		DF1EEF6C29632CC100DBD413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1EEF6A29632CC100DBD413 /* Main.storyboard */; };
 		DF1EEF6E29632CC300DBD413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1EEF6D29632CC300DBD413 /* Assets.xcassets */; };
 		DF1EEF7129632CC300DBD413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1EEF6F29632CC300DBD413 /* LaunchScreen.storyboard */; };
+		DF1EEF852965C2DE00DBD413 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF842965C2DE00DBD413 /* Product.swift */; };
+		DF1EEF872965C38300DBD413 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF862965C38300DBD413 /* APIManager.swift */; };
+		DF1EEF89296C281300DBD413 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF88296C281300DBD413 /* Constant.swift */; };
+		DF1EEF8B296C365C00DBD413 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF8A296C365C00DBD413 /* ProductListViewController.swift */; };
+		DF1EEF8D296C37E100DBD413 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF8C296C37E100DBD413 /* ProductViewModel.swift */; };
+		DF1EEF90296C534400DBD413 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF8E296C534400DBD413 /* ProductsCell.swift */; };
+		DF1EEF91296C534400DBD413 /* ProductsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1EEF8F296C534400DBD413 /* ProductsCell.xib */; };
+		DF1EEF94296C6AC200DBD413 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DF1EEF93296C6AC200DBD413 /* Kingfisher */; };
+		DF1EEF96296C6BE400DBD413 /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF95296C6BE400DBD413 /* UIImageView + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF1EEF6129632CC100DBD413 /* MVVM_DataBinding_Singleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_DataBinding_Singleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1EEF6429632CC100DBD413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF1EEF6629632CC100DBD413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF1EEF6829632CC100DBD413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF1EEF6B29632CC100DBD413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF1EEF6D29632CC300DBD413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF1EEF7029632CC300DBD413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF1EEF7229632CC300DBD413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1EEF842965C2DE00DBD413 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DF1EEF862965C38300DBD413 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DF1EEF88296C281300DBD413 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DF1EEF8A296C365C00DBD413 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		DF1EEF8C296C37E100DBD413 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		DF1EEF8E296C534400DBD413 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		DF1EEF8F296C534400DBD413 /* ProductsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCell.xib; sourceTree = "<group>"; };
+		DF1EEF95296C6BE400DBD413 /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1EEF94296C6AC200DBD413 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,110 @@
 		DF1EEF6329632CC100DBD413 /* MVVM_DataBinding_Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				DF1EEF6429632CC100DBD413 /* AppDelegate.swift */,
-				DF1EEF6629632CC100DBD413 /* SceneDelegate.swift */,
-				DF1EEF6829632CC100DBD413 /* ViewController.swift */,
-				DF1EEF6A29632CC100DBD413 /* Main.storyboard */,
-				DF1EEF6D29632CC300DBD413 /* Assets.xcassets */,
-				DF1EEF6F29632CC300DBD413 /* LaunchScreen.storyboard */,
+				DF1EEF782965C0B400DBD413 /* Application */,
+				DF1EEF7F2965C0E300DBD413 /* Constant */,
+				DF1EEF7E2965C0D600DBD413 /* Extensions */,
+				DF1EEF7C2965C0C900DBD413 /* Helper */,
+				DF1EEF7B2965C0C500DBD413 /* Screens */,
+				DF1EEF7A2965C0C200DBD413 /* Storyboard */,
+				DF1EEF792965C0BF00DBD413 /* Resources */,
 				DF1EEF7229632CC300DBD413 /* Info.plist */,
 			);
 			path = MVVM_DataBinding_Singleton;
+			sourceTree = "<group>";
+		};
+		DF1EEF782965C0B400DBD413 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF6429632CC100DBD413 /* AppDelegate.swift */,
+				DF1EEF6629632CC100DBD413 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DF1EEF792965C0BF00DBD413 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF6D29632CC300DBD413 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF1EEF7A2965C0C200DBD413 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF6A29632CC100DBD413 /* Main.storyboard */,
+				DF1EEF6F29632CC300DBD413 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DF1EEF7B2965C0C500DBD413 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF802965C18D00DBD413 /* Product */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DF1EEF7C2965C0C900DBD413 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF862965C38300DBD413 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DF1EEF7E2965C0D600DBD413 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF95296C6BE400DBD413 /* UIImageView + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF1EEF7F2965C0E300DBD413 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF88296C281300DBD413 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		DF1EEF802965C18D00DBD413 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF832965C1A800DBD413 /* Model */,
+				DF1EEF822965C1A500DBD413 /* View */,
+				DF1EEF812965C19F00DBD413 /* ViewModel */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		DF1EEF812965C19F00DBD413 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF8C296C37E100DBD413 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF1EEF822965C1A500DBD413 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF8A296C365C00DBD413 /* ProductListViewController.swift */,
+				DF1EEF8E296C534400DBD413 /* ProductsCell.swift */,
+				DF1EEF8F296C534400DBD413 /* ProductsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF1EEF832965C1A800DBD413 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF842965C2DE00DBD413 /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +194,9 @@
 			dependencies = (
 			);
 			name = MVVM_DataBinding_Singleton;
+			packageProductDependencies = (
+				DF1EEF93296C6AC200DBD413 /* Kingfisher */,
+			);
 			productName = MVVM_DataBinding_Singleton;
 			productReference = DF1EEF6129632CC100DBD413 /* MVVM_DataBinding_Singleton.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +225,9 @@
 				Base,
 			);
 			mainGroup = DF1EEF5829632CC100DBD413;
+			packageReferences = (
+				DF1EEF92296C6AC200DBD413 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DF1EEF6229632CC100DBD413 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF1EEF7129632CC300DBD413 /* LaunchScreen.storyboard in Resources */,
+				DF1EEF91296C534400DBD413 /* ProductsCell.xib in Resources */,
 				DF1EEF6E29632CC300DBD413 /* Assets.xcassets in Resources */,
 				DF1EEF6C29632CC100DBD413 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1EEF6929632CC100DBD413 /* ViewController.swift in Sources */,
+				DF1EEF8D296C37E100DBD413 /* ProductViewModel.swift in Sources */,
+				DF1EEF90296C534400DBD413 /* ProductsCell.swift in Sources */,
 				DF1EEF6529632CC100DBD413 /* AppDelegate.swift in Sources */,
 				DF1EEF6729632CC100DBD413 /* SceneDelegate.swift in Sources */,
+				DF1EEF89296C281300DBD413 /* Constant.swift in Sources */,
+				DF1EEF96296C6BE400DBD413 /* UIImageView + Extensions.swift in Sources */,
+				DF1EEF872965C38300DBD413 /* APIManager.swift in Sources */,
+				DF1EEF8B296C365C00DBD413 /* ProductListViewController.swift in Sources */,
+				DF1EEF852965C2DE00DBD413 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +482,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF1EEF92296C6AC200DBD413 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF1EEF93296C6AC200DBD413 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF1EEF92296C6AC200DBD413 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF1EEF5929632CC100DBD413 /* Project object */;
 }
