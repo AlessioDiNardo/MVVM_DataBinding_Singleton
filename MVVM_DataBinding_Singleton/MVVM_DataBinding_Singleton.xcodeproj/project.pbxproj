@@ -21,6 +21,7 @@
 		DF1EEF91296C534400DBD413 /* ProductsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1EEF8F296C534400DBD413 /* ProductsCell.xib */; };
 		DF1EEF94296C6AC200DBD413 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DF1EEF93296C6AC200DBD413 /* Kingfisher */; };
 		DF1EEF96296C6BE400DBD413 /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF95296C6BE400DBD413 /* UIImageView + Extensions.swift */; };
+		DF1EEF99296D6E8600DBD413 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EEF98296D6E8600DBD413 /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		DF1EEF8E296C534400DBD413 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
 		DF1EEF8F296C534400DBD413 /* ProductsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCell.xib; sourceTree = "<group>"; };
 		DF1EEF95296C6BE400DBD413 /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extensions.swift"; sourceTree = "<group>"; };
+		DF1EEF98296D6E8600DBD413 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				DF1EEF782965C0B400DBD413 /* Application */,
 				DF1EEF7F2965C0E300DBD413 /* Constant */,
 				DF1EEF7E2965C0D600DBD413 /* Extensions */,
+				DF1EEF97296D6E6900DBD413 /* Utility */,
 				DF1EEF7C2965C0C900DBD413 /* Helper */,
 				DF1EEF7B2965C0C500DBD413 /* Screens */,
 				DF1EEF7A2965C0C200DBD413 /* Storyboard */,
@@ -178,6 +181,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DF1EEF97296D6E6900DBD413 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DF1EEF98296D6E8600DBD413 /* EndPointType.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +275,7 @@
 				DF1EEF96296C6BE400DBD413 /* UIImageView + Extensions.swift in Sources */,
 				DF1EEF872965C38300DBD413 /* APIManager.swift in Sources */,
 				DF1EEF8B296C365C00DBD413 /* ProductListViewController.swift in Sources */,
+				DF1EEF99296D6E8600DBD413 /* EndPointType.swift in Sources */,
 				DF1EEF852965C2DE00DBD413 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
